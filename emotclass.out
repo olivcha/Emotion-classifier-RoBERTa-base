@@ -1,0 +1,78 @@
+Thu Jun 29 02:11:53 2023       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 530.41.03              Driver Version: 530.41.03    CUDA Version: 12.1     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                  Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf            Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla T4                        Off| 00000000:00:08.0 Off |                    0 |
+| N/A   33C    P8               11W /  70W|      2MiB / 15360MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+ 02:11:53 up 26 days, 15:00,  2 users,  load average: 1.00, 1.19, 1.41
+pip 22.0.2 from /vol/bitbucket/ohc22/project_myvenv/lib/python3.10/site-packages/pip (python 3.10)
+Epoch 1/15 - Train Loss: 0.5057 - Val Loss: 0.2793 - Val Accuracy: 0.9280
+Epoch 2/15 - Train Loss: 0.4868 - Val Loss: 0.4117 - Val Accuracy: 0.9158
+Epoch 3/15 - Train Loss: 1.2729 - Val Loss: 1.3900 - Val Accuracy: 0.6917
+Epoch 4/15 - Train Loss: 1.3893 - Val Loss: 1.3923 - Val Accuracy: 0.5786
+Epoch 5/15 - Train Loss: 1.3687 - Val Loss: 1.3871 - Val Accuracy: 0.5116
+Epoch 6/15 - Train Loss: 1.3889 - Val Loss: 1.3873 - Val Accuracy: 0.4663
+Epoch 7/15 - Train Loss: 1.3878 - Val Loss: 1.3861 - Val Accuracy: 0.4371
+Epoch 8/15 - Train Loss: 1.3876 - Val Loss: 1.3872 - Val Accuracy: 0.4129
+Epoch 9/15 - Train Loss: 1.3875 - Val Loss: 1.3860 - Val Accuracy: 0.3962
+Epoch 10/15 - Train Loss: 1.3871 - Val Loss: 1.3875 - Val Accuracy: 0.3810
+Epoch 11/15 - Train Loss: 1.3871 - Val Loss: 1.3874 - Val Accuracy: 0.3681
+Epoch 12/15 - Train Loss: 1.3868 - Val Loss: 1.3881 - Val Accuracy: 0.3577
+Epoch 13/15 - Train Loss: 1.3868 - Val Loss: 1.3867 - Val Accuracy: 0.3489
+Epoch 14/15 - Train Loss: 1.3866 - Val Loss: 1.3871 - Val Accuracy: 0.3411
+Epoch 15/15 - Train Loss: 1.3864 - Val Loss: 1.3869 - Val Accuracy: 0.3343
+
+________________________________________________________________________________
+              precision    recall  f1-score   support
+
+     sadness     0.2515    1.0000    0.4019       503
+         joy     0.0000    0.0000    0.0000       515
+       anger     0.0000    0.0000    0.0000       515
+        fear     0.0000    0.0000    0.0000       467
+
+    accuracy                         0.2515      2000
+   macro avg     0.0629    0.2500    0.1005      2000
+weighted avg     0.0633    0.2515    0.1011      2000
+
+Epoch 1/15 - Train Loss: 0.7331 - Val Loss: 0.6741 - Val Accuracy: 0.7373
+Epoch 2/15 - Train Loss: 0.5547 - Val Loss: 0.7237 - Val Accuracy: 0.7288
+Epoch 3/15 - Train Loss: 0.4495 - Val Loss: 0.6448 - Val Accuracy: 0.7429
+Epoch 4/15 - Train Loss: 0.4461 - Val Loss: 0.8036 - Val Accuracy: 0.7458
+Epoch 5/15 - Train Loss: 0.3182 - Val Loss: 0.8343 - Val Accuracy: 0.7458
+Epoch 6/15 - Train Loss: 0.2894 - Val Loss: 0.8336 - Val Accuracy: 0.7500
+Epoch 7/15 - Train Loss: 0.2771 - Val Loss: 0.7476 - Val Accuracy: 0.7567
+Epoch 8/15 - Train Loss: 0.2256 - Val Loss: 0.7120 - Val Accuracy: 0.7595
+Epoch 9/15 - Train Loss: 0.2172 - Val Loss: 0.7315 - Val Accuracy: 0.7627
+Epoch 10/15 - Train Loss: 0.1681 - Val Loss: 0.8405 - Val Accuracy: 0.7653
+Epoch 11/15 - Train Loss: 0.1423 - Val Loss: 0.9605 - Val Accuracy: 0.7658
+Epoch 12/15 - Train Loss: 0.1446 - Val Loss: 0.8655 - Val Accuracy: 0.7669
+Epoch 13/15 - Train Loss: 0.1366 - Val Loss: 0.8949 - Val Accuracy: 0.7692
+Epoch 14/15 - Train Loss: 0.1198 - Val Loss: 0.9388 - Val Accuracy: 0.7700
+Epoch 15/15 - Train Loss: 0.0865 - Val Loss: 1.0043 - Val Accuracy: 0.7706
+
+________________________________________________________________________________
+              precision    recall  f1-score   support
+
+     sadness     0.8333    0.7692    0.8000        26
+         joy     0.9091    0.9091    0.9091        33
+       anger     0.8158    0.8857    0.8493        35
+        fear     0.8750    0.8400    0.8571        25
+
+    accuracy                         0.8571       119
+   macro avg     0.8583    0.8510    0.8539       119
+weighted avg     0.8579    0.8571    0.8568       119
+

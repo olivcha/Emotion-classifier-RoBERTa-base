@@ -1,0 +1,44 @@
+2023-06-28 19:08:47,131 INFO Using CPU
+2023-06-28 19:09:58,343 INFO Using CPU
+2023-06-28 19:15:51,549 INFO Using CPU
+2023-06-28 19:16:41,647 INFO Using CPU
+2023-06-28 19:16:43,409 INFO Training started at 2023-06-28 19:16:43.409887, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 2e-05
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x0000025E3E85F990>, learning rate: 2e-05, loss function: CrossEntropyLoss()
+2023-06-28 19:17:38,465 INFO Using CPU
+2023-06-28 19:17:40,231 INFO Training started at 2023-06-28 19:17:40.231192, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 2e-05
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x000001FD99B33C90>, learning rate: 2e-05, loss function: CrossEntropyLoss()
+2023-06-28 19:34:35,578 INFO Using CPU
+2023-06-28 19:34:37,356 INFO Training started at 2023-06-28 19:34:37.356956, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 2e-05
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x0000027BEB62FC50>, learning rate: 2e-05, loss function: CrossEntropyLoss()
+2023-06-28 19:55:41,696 INFO Using CPU
+2023-06-28 19:56:05,645 INFO Using CPU
+2023-06-28 19:56:07,483 INFO Training started at 2023-06-28 19:56:07.482038, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 2e-05
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x000001428A2F6AD0>, learning rate: 2e-05, loss function: CrossEntropyLoss()

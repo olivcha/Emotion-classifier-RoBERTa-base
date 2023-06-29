@@ -1,0 +1,354 @@
+2023-06-29 00:46:14,848 INFO Using GPU: NVIDIA A30
+2023-06-29 00:46:20,494 INFO Training started at 2023-06-29 00:46:20.494545, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 0.00015
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x7f53f4d623e0>, learning rate: 0.00015, loss function: CrossEntropyLoss()
+2023-06-29 00:47:36,112 INFO Epoch 1/5 - Train Loss: 0.4640 - Val Loss: 0.2157 - Val Accuracy: 0.9385
+2023-06-29 00:48:52,558 INFO Epoch 2/5 - Train Loss: 0.2052 - Val Loss: 0.1730 - Val Accuracy: 0.9398
+2023-06-29 00:50:08,661 INFO Epoch 3/5 - Train Loss: 0.1279 - Val Loss: 0.1088 - Val Accuracy: 0.9468
+2023-06-29 00:51:25,156 INFO Epoch 4/5 - Train Loss: 0.0891 - Val Loss: 0.0849 - Val Accuracy: 0.9496
+2023-06-29 00:52:41,358 INFO Epoch 5/5 - Train Loss: 0.0620 - Val Loss: 0.0762 - Val Accuracy: 0.9519
+2023-06-29 00:52:44,313 INFO Running test set evaluation...
+2023-06-29 01:00:41,331 INFO Using GPU: NVIDIA A30
+2023-06-29 01:00:46,636 INFO Training started at 2023-06-29 01:00:46.636193, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 0.00015
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x7f487055a4d0>, learning rate: 0.00015, loss function: CrossEntropyLoss()
+2023-06-29 01:02:02,411 INFO Epoch 1/5 - Train Loss: 0.4290 - Val Loss: 0.1720 - Val Accuracy: 0.9450
+2023-06-29 01:03:18,067 INFO Epoch 2/5 - Train Loss: 0.1901 - Val Loss: 0.1179 - Val Accuracy: 0.9513
+2023-06-29 01:04:34,322 INFO Epoch 3/5 - Train Loss: 0.1248 - Val Loss: 0.1020 - Val Accuracy: 0.9532
+2023-06-29 01:05:51,212 INFO Epoch 4/5 - Train Loss: 0.0801 - Val Loss: 0.0747 - Val Accuracy: 0.9554
+2023-06-29 01:07:07,600 INFO Epoch 5/5 - Train Loss: 0.0592 - Val Loss: 0.0713 - Val Accuracy: 0.9568
+2023-06-29 01:07:10,582 INFO Running test set evaluation...
+2023-06-29 01:25:27,593 INFO Using GPU: NVIDIA A30
+2023-06-29 01:25:32,882 INFO Training started at 2023-06-29 01:25:32.882384, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 0.00015
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x7f671712e500>, learning rate: 0.00015, loss function: CrossEntropyLoss()
+2023-06-29 01:26:48,330 INFO Epoch 1/5 - Train Loss: 0.7323 - Val Loss: 1.4161 - Val Accuracy: 0.2435
+2023-06-29 01:28:04,351 INFO Epoch 2/5 - Train Loss: 1.3899 - Val Loss: 1.3858 - Val Accuracy: 0.2490
+2023-06-29 01:29:20,112 INFO Epoch 3/5 - Train Loss: 1.3895 - Val Loss: 1.3861 - Val Accuracy: 0.2508
+2023-06-29 01:30:34,570 INFO Epoch 4/5 - Train Loss: 1.3881 - Val Loss: 1.3868 - Val Accuracy: 0.2490
+2023-06-29 01:31:48,953 INFO Epoch 5/5 - Train Loss: 1.3868 - Val Loss: 1.3867 - Val Accuracy: 0.2471
+2023-06-29 01:31:50,566 INFO Running test set evaluation...
+2023-06-29 01:51:19,012 INFO Using GPU: Tesla T4
+2023-06-29 01:51:26,507 INFO Training started at 2023-06-29 01:51:26.506898, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 0.00015
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x7f53cc51e4d0>, learning rate: 0.00015, loss function: CrossEntropyLoss()
+2023-06-29 01:53:46,712 INFO Epoch 1/5 - Train Loss: 0.6577 - Val Loss: 0.4060 - Val Accuracy: 0.8835
+2023-06-29 01:56:10,068 INFO Epoch 2/5 - Train Loss: 0.2776 - Val Loss: 0.1788 - Val Accuracy: 0.9165
+2023-06-29 01:58:33,342 INFO Epoch 3/5 - Train Loss: 0.1726 - Val Loss: 0.1488 - Val Accuracy: 0.9263
+2023-06-29 02:00:55,965 INFO Epoch 4/5 - Train Loss: 0.1134 - Val Loss: 0.0958 - Val Accuracy: 0.9342
+2023-06-29 02:03:18,670 INFO Epoch 5/5 - Train Loss: 0.0844 - Val Loss: 0.0824 - Val Accuracy: 0.9391
+2023-06-29 02:03:21,509 INFO Running test set evaluation...
+2023-06-29 02:03:21,518 INFO Testing Progress: 1/100
+2023-06-29 02:03:21,604 INFO Testing Progress: 2/100
+2023-06-29 02:03:21,698 INFO Testing Progress: 3/100
+2023-06-29 02:03:21,760 INFO Testing Progress: 4/100
+2023-06-29 02:03:21,806 INFO Testing Progress: 5/100
+2023-06-29 02:03:21,847 INFO Testing Progress: 6/100
+2023-06-29 02:03:21,889 INFO Testing Progress: 7/100
+2023-06-29 02:03:21,936 INFO Testing Progress: 8/100
+2023-06-29 02:03:21,991 INFO Testing Progress: 9/100
+2023-06-29 02:03:22,037 INFO Testing Progress: 10/100
+2023-06-29 02:03:22,084 INFO Testing Progress: 11/100
+2023-06-29 02:03:22,133 INFO Testing Progress: 12/100
+2023-06-29 02:03:22,178 INFO Testing Progress: 13/100
+2023-06-29 02:03:22,224 INFO Testing Progress: 14/100
+2023-06-29 02:03:22,274 INFO Testing Progress: 15/100
+2023-06-29 02:03:22,319 INFO Testing Progress: 16/100
+2023-06-29 02:03:22,352 INFO Testing Progress: 17/100
+2023-06-29 02:03:22,408 INFO Testing Progress: 18/100
+2023-06-29 02:03:22,466 INFO Testing Progress: 19/100
+2023-06-29 02:03:22,510 INFO Testing Progress: 20/100
+2023-06-29 02:03:22,551 INFO Testing Progress: 21/100
+2023-06-29 02:03:22,589 INFO Testing Progress: 22/100
+2023-06-29 02:03:22,647 INFO Testing Progress: 23/100
+2023-06-29 02:03:22,704 INFO Testing Progress: 24/100
+2023-06-29 02:03:22,762 INFO Testing Progress: 25/100
+2023-06-29 02:03:22,820 INFO Testing Progress: 26/100
+2023-06-29 02:03:22,859 INFO Testing Progress: 27/100
+2023-06-29 02:03:22,917 INFO Testing Progress: 28/100
+2023-06-29 02:03:22,958 INFO Testing Progress: 29/100
+2023-06-29 02:03:23,001 INFO Testing Progress: 30/100
+2023-06-29 02:03:23,059 INFO Testing Progress: 31/100
+2023-06-29 02:03:23,097 INFO Testing Progress: 32/100
+2023-06-29 02:03:23,156 INFO Testing Progress: 33/100
+2023-06-29 02:03:23,212 INFO Testing Progress: 34/100
+2023-06-29 02:03:23,260 INFO Testing Progress: 35/100
+2023-06-29 02:03:23,300 INFO Testing Progress: 36/100
+2023-06-29 02:03:23,343 INFO Testing Progress: 37/100
+2023-06-29 02:03:23,389 INFO Testing Progress: 38/100
+2023-06-29 02:03:23,448 INFO Testing Progress: 39/100
+2023-06-29 02:03:23,500 INFO Testing Progress: 40/100
+2023-06-29 02:03:23,539 INFO Testing Progress: 41/100
+2023-06-29 02:03:23,580 INFO Testing Progress: 42/100
+2023-06-29 02:03:23,635 INFO Testing Progress: 43/100
+2023-06-29 02:03:23,673 INFO Testing Progress: 44/100
+2023-06-29 02:03:23,720 INFO Testing Progress: 45/100
+2023-06-29 02:03:23,770 INFO Testing Progress: 46/100
+2023-06-29 02:03:23,807 INFO Testing Progress: 47/100
+2023-06-29 02:03:23,844 INFO Testing Progress: 48/100
+2023-06-29 02:03:23,893 INFO Testing Progress: 49/100
+2023-06-29 02:03:23,951 INFO Testing Progress: 50/100
+2023-06-29 02:03:23,993 INFO Testing Progress: 51/100
+2023-06-29 02:03:24,044 INFO Testing Progress: 52/100
+2023-06-29 02:03:24,100 INFO Testing Progress: 53/100
+2023-06-29 02:03:24,152 INFO Testing Progress: 54/100
+2023-06-29 02:03:24,202 INFO Testing Progress: 55/100
+2023-06-29 02:03:24,252 INFO Testing Progress: 56/100
+2023-06-29 02:03:24,310 INFO Testing Progress: 57/100
+2023-06-29 02:03:24,370 INFO Testing Progress: 58/100
+2023-06-29 02:03:24,426 INFO Testing Progress: 59/100
+2023-06-29 02:03:24,472 INFO Testing Progress: 60/100
+2023-06-29 02:03:24,519 INFO Testing Progress: 61/100
+2023-06-29 02:03:24,565 INFO Testing Progress: 62/100
+2023-06-29 02:03:24,631 INFO Testing Progress: 63/100
+2023-06-29 02:03:24,679 INFO Testing Progress: 64/100
+2023-06-29 02:03:24,739 INFO Testing Progress: 65/100
+2023-06-29 02:03:24,796 INFO Testing Progress: 66/100
+2023-06-29 02:03:24,846 INFO Testing Progress: 67/100
+2023-06-29 02:03:24,894 INFO Testing Progress: 68/100
+2023-06-29 02:03:24,941 INFO Testing Progress: 69/100
+2023-06-29 02:03:24,999 INFO Testing Progress: 70/100
+2023-06-29 02:03:25,056 INFO Testing Progress: 71/100
+2023-06-29 02:03:25,103 INFO Testing Progress: 72/100
+2023-06-29 02:03:25,151 INFO Testing Progress: 73/100
+2023-06-29 02:03:25,195 INFO Testing Progress: 74/100
+2023-06-29 02:03:25,239 INFO Testing Progress: 75/100
+2023-06-29 02:03:25,296 INFO Testing Progress: 76/100
+2023-06-29 02:03:25,350 INFO Testing Progress: 77/100
+2023-06-29 02:03:25,399 INFO Testing Progress: 78/100
+2023-06-29 02:03:25,451 INFO Testing Progress: 79/100
+2023-06-29 02:03:25,496 INFO Testing Progress: 80/100
+2023-06-29 02:03:25,533 INFO Testing Progress: 81/100
+2023-06-29 02:03:25,582 INFO Testing Progress: 82/100
+2023-06-29 02:03:25,628 INFO Testing Progress: 83/100
+2023-06-29 02:03:25,687 INFO Testing Progress: 84/100
+2023-06-29 02:03:25,742 INFO Testing Progress: 85/100
+2023-06-29 02:03:25,784 INFO Testing Progress: 86/100
+2023-06-29 02:03:25,845 INFO Testing Progress: 87/100
+2023-06-29 02:03:25,887 INFO Testing Progress: 88/100
+2023-06-29 02:03:25,927 INFO Testing Progress: 89/100
+2023-06-29 02:03:25,987 INFO Testing Progress: 90/100
+2023-06-29 02:03:26,036 INFO Testing Progress: 91/100
+2023-06-29 02:03:26,090 INFO Testing Progress: 92/100
+2023-06-29 02:03:26,151 INFO Testing Progress: 93/100
+2023-06-29 02:03:26,217 INFO Testing Progress: 94/100
+2023-06-29 02:03:26,259 INFO Testing Progress: 95/100
+2023-06-29 02:03:26,314 INFO Testing Progress: 96/100
+2023-06-29 02:03:26,353 INFO Testing Progress: 97/100
+2023-06-29 02:03:26,413 INFO Testing Progress: 98/100
+2023-06-29 02:03:26,451 INFO Testing Progress: 99/100
+2023-06-29 02:03:26,509 INFO Testing Progress: 100/100
+2023-06-29 02:03:26,692 INFO               precision    recall  f1-score   support
+
+     sadness     0.9750    0.9304    0.9522       503
+         joy     0.9940    0.9650    0.9793       515
+       anger     0.9425    0.9553    0.9489       515
+        fear     0.9257    0.9872    0.9554       467
+
+    accuracy                         0.9590      2000
+   macro avg     0.9593    0.9595    0.9590      2000
+weighted avg     0.9600    0.9590    0.9591      2000
+
+2023-06-29 02:12:17,285 INFO Using GPU: Tesla T4
+2023-06-29 02:12:24,779 INFO Training started at 2023-06-29 02:12:24.779081, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 0.00015
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x7f6a72a6e4a0>, learning rate: 0.00015, loss function: CrossEntropyLoss()
+2023-06-29 02:14:45,613 INFO Epoch 1/15 - Train Loss: 0.5057 - Val Loss: 0.2793 - Val Accuracy: 0.9280
+2023-06-29 02:17:08,297 INFO Epoch 2/15 - Train Loss: 0.4868 - Val Loss: 0.4117 - Val Accuracy: 0.9158
+2023-06-29 02:19:29,716 INFO Epoch 3/15 - Train Loss: 1.2729 - Val Loss: 1.3900 - Val Accuracy: 0.6917
+2023-06-29 02:21:50,878 INFO Epoch 4/15 - Train Loss: 1.3893 - Val Loss: 1.3923 - Val Accuracy: 0.5786
+2023-06-29 02:24:11,914 INFO Epoch 5/15 - Train Loss: 1.3687 - Val Loss: 1.3871 - Val Accuracy: 0.5116
+2023-06-29 02:26:33,208 INFO Epoch 6/15 - Train Loss: 1.3889 - Val Loss: 1.3873 - Val Accuracy: 0.4663
+2023-06-29 02:28:54,260 INFO Epoch 7/15 - Train Loss: 1.3878 - Val Loss: 1.3861 - Val Accuracy: 0.4371
+2023-06-29 02:31:15,583 INFO Epoch 8/15 - Train Loss: 1.3876 - Val Loss: 1.3872 - Val Accuracy: 0.4129
+2023-06-29 02:33:36,683 INFO Epoch 9/15 - Train Loss: 1.3875 - Val Loss: 1.3860 - Val Accuracy: 0.3962
+2023-06-29 02:35:57,605 INFO Epoch 10/15 - Train Loss: 1.3871 - Val Loss: 1.3875 - Val Accuracy: 0.3810
+2023-06-29 02:38:19,067 INFO Epoch 11/15 - Train Loss: 1.3871 - Val Loss: 1.3874 - Val Accuracy: 0.3681
+2023-06-29 02:40:40,426 INFO Epoch 12/15 - Train Loss: 1.3868 - Val Loss: 1.3881 - Val Accuracy: 0.3577
+2023-06-29 02:43:01,589 INFO Epoch 13/15 - Train Loss: 1.3868 - Val Loss: 1.3867 - Val Accuracy: 0.3489
+2023-06-29 02:45:22,961 INFO Epoch 14/15 - Train Loss: 1.3866 - Val Loss: 1.3871 - Val Accuracy: 0.3411
+2023-06-29 02:47:44,357 INFO Epoch 15/15 - Train Loss: 1.3864 - Val Loss: 1.3869 - Val Accuracy: 0.3343
+2023-06-29 02:47:45,827 INFO Running test set evaluation...
+2023-06-29 02:47:45,836 INFO Testing Progress: 1/100
+2023-06-29 02:47:45,877 INFO Testing Progress: 2/100
+2023-06-29 02:47:45,937 INFO Testing Progress: 3/100
+2023-06-29 02:47:45,982 INFO Testing Progress: 4/100
+2023-06-29 02:47:46,026 INFO Testing Progress: 5/100
+2023-06-29 02:47:46,067 INFO Testing Progress: 6/100
+2023-06-29 02:47:46,108 INFO Testing Progress: 7/100
+2023-06-29 02:47:46,154 INFO Testing Progress: 8/100
+2023-06-29 02:47:46,210 INFO Testing Progress: 9/100
+2023-06-29 02:47:46,256 INFO Testing Progress: 10/100
+2023-06-29 02:47:46,302 INFO Testing Progress: 11/100
+2023-06-29 02:47:46,350 INFO Testing Progress: 12/100
+2023-06-29 02:47:46,395 INFO Testing Progress: 13/100
+2023-06-29 02:47:46,441 INFO Testing Progress: 14/100
+2023-06-29 02:47:46,490 INFO Testing Progress: 15/100
+2023-06-29 02:47:46,535 INFO Testing Progress: 16/100
+2023-06-29 02:47:46,568 INFO Testing Progress: 17/100
+2023-06-29 02:47:46,623 INFO Testing Progress: 18/100
+2023-06-29 02:47:46,683 INFO Testing Progress: 19/100
+2023-06-29 02:47:46,740 INFO Testing Progress: 20/100
+2023-06-29 02:47:46,785 INFO Testing Progress: 21/100
+2023-06-29 02:47:46,823 INFO Testing Progress: 22/100
+2023-06-29 02:47:46,878 INFO Testing Progress: 23/100
+2023-06-29 02:47:46,930 INFO Testing Progress: 24/100
+2023-06-29 02:47:46,985 INFO Testing Progress: 25/100
+2023-06-29 02:47:47,042 INFO Testing Progress: 26/100
+2023-06-29 02:47:47,079 INFO Testing Progress: 27/100
+2023-06-29 02:47:47,137 INFO Testing Progress: 28/100
+2023-06-29 02:47:47,177 INFO Testing Progress: 29/100
+2023-06-29 02:47:47,217 INFO Testing Progress: 30/100
+2023-06-29 02:47:47,273 INFO Testing Progress: 31/100
+2023-06-29 02:47:47,309 INFO Testing Progress: 32/100
+2023-06-29 02:47:47,366 INFO Testing Progress: 33/100
+2023-06-29 02:47:47,421 INFO Testing Progress: 34/100
+2023-06-29 02:47:47,469 INFO Testing Progress: 35/100
+2023-06-29 02:47:47,509 INFO Testing Progress: 36/100
+2023-06-29 02:47:47,551 INFO Testing Progress: 37/100
+2023-06-29 02:47:47,596 INFO Testing Progress: 38/100
+2023-06-29 02:47:47,658 INFO Testing Progress: 39/100
+2023-06-29 02:47:47,714 INFO Testing Progress: 40/100
+2023-06-29 02:47:47,754 INFO Testing Progress: 41/100
+2023-06-29 02:47:47,796 INFO Testing Progress: 42/100
+2023-06-29 02:47:47,848 INFO Testing Progress: 43/100
+2023-06-29 02:47:47,887 INFO Testing Progress: 44/100
+2023-06-29 02:47:47,933 INFO Testing Progress: 45/100
+2023-06-29 02:47:47,982 INFO Testing Progress: 46/100
+2023-06-29 02:47:48,017 INFO Testing Progress: 47/100
+2023-06-29 02:47:48,054 INFO Testing Progress: 48/100
+2023-06-29 02:47:48,102 INFO Testing Progress: 49/100
+2023-06-29 02:47:48,158 INFO Testing Progress: 50/100
+2023-06-29 02:47:48,199 INFO Testing Progress: 51/100
+2023-06-29 02:47:48,248 INFO Testing Progress: 52/100
+2023-06-29 02:47:48,302 INFO Testing Progress: 53/100
+2023-06-29 02:47:48,354 INFO Testing Progress: 54/100
+2023-06-29 02:47:48,403 INFO Testing Progress: 55/100
+2023-06-29 02:47:48,455 INFO Testing Progress: 56/100
+2023-06-29 02:47:48,511 INFO Testing Progress: 57/100
+2023-06-29 02:47:48,569 INFO Testing Progress: 58/100
+2023-06-29 02:47:48,625 INFO Testing Progress: 59/100
+2023-06-29 02:47:48,674 INFO Testing Progress: 60/100
+2023-06-29 02:47:48,720 INFO Testing Progress: 61/100
+2023-06-29 02:47:48,766 INFO Testing Progress: 62/100
+2023-06-29 02:47:48,833 INFO Testing Progress: 63/100
+2023-06-29 02:47:48,879 INFO Testing Progress: 64/100
+2023-06-29 02:47:48,939 INFO Testing Progress: 65/100
+2023-06-29 02:47:48,995 INFO Testing Progress: 66/100
+2023-06-29 02:47:49,043 INFO Testing Progress: 67/100
+2023-06-29 02:47:49,090 INFO Testing Progress: 68/100
+2023-06-29 02:47:49,135 INFO Testing Progress: 69/100
+2023-06-29 02:47:49,191 INFO Testing Progress: 70/100
+2023-06-29 02:47:49,246 INFO Testing Progress: 71/100
+2023-06-29 02:47:49,292 INFO Testing Progress: 72/100
+2023-06-29 02:47:49,338 INFO Testing Progress: 73/100
+2023-06-29 02:47:49,381 INFO Testing Progress: 74/100
+2023-06-29 02:47:49,425 INFO Testing Progress: 75/100
+2023-06-29 02:47:49,481 INFO Testing Progress: 76/100
+2023-06-29 02:47:49,532 INFO Testing Progress: 77/100
+2023-06-29 02:47:49,581 INFO Testing Progress: 78/100
+2023-06-29 02:47:49,633 INFO Testing Progress: 79/100
+2023-06-29 02:47:49,678 INFO Testing Progress: 80/100
+2023-06-29 02:47:49,716 INFO Testing Progress: 81/100
+2023-06-29 02:47:49,765 INFO Testing Progress: 82/100
+2023-06-29 02:47:49,810 INFO Testing Progress: 83/100
+2023-06-29 02:47:49,868 INFO Testing Progress: 84/100
+2023-06-29 02:47:49,922 INFO Testing Progress: 85/100
+2023-06-29 02:47:49,964 INFO Testing Progress: 86/100
+2023-06-29 02:47:50,022 INFO Testing Progress: 87/100
+2023-06-29 02:47:50,064 INFO Testing Progress: 88/100
+2023-06-29 02:47:50,101 INFO Testing Progress: 89/100
+2023-06-29 02:47:50,160 INFO Testing Progress: 90/100
+2023-06-29 02:47:50,208 INFO Testing Progress: 91/100
+2023-06-29 02:47:50,259 INFO Testing Progress: 92/100
+2023-06-29 02:47:50,319 INFO Testing Progress: 93/100
+2023-06-29 02:47:50,384 INFO Testing Progress: 94/100
+2023-06-29 02:47:50,425 INFO Testing Progress: 95/100
+2023-06-29 02:47:50,479 INFO Testing Progress: 96/100
+2023-06-29 02:47:50,518 INFO Testing Progress: 97/100
+2023-06-29 02:47:50,577 INFO Testing Progress: 98/100
+2023-06-29 02:47:50,615 INFO Testing Progress: 99/100
+2023-06-29 02:47:50,672 INFO Testing Progress: 100/100
+2023-06-29 02:47:50,877 INFO               precision    recall  f1-score   support
+
+     sadness     0.2515    1.0000    0.4019       503
+         joy     0.0000    0.0000    0.0000       515
+       anger     0.0000    0.0000    0.0000       515
+        fear     0.0000    0.0000    0.0000       467
+
+    accuracy                         0.2515      2000
+   macro avg     0.0629    0.2500    0.1005      2000
+weighted avg     0.0633    0.2515    0.1011      2000
+
+2023-06-29 02:47:55,538 INFO Training started at 2023-06-29 02:47:55.537967, optimizer: AdamW (
+Parameter Group 0
+    betas: (0.9, 0.999)
+    correct_bias: True
+    eps: 1e-08
+    initial_lr: 0.00015
+    lr: 0.0
+    weight_decay: 0.0
+), scheduler: <torch.optim.lr_scheduler.LambdaLR object at 0x7f6a6bb3b4f0>, learning rate: 0.00015, loss function: CrossEntropyLoss()
+2023-06-29 02:48:01,326 INFO Epoch 1/15 - Train Loss: 0.7331 - Val Loss: 0.6741 - Val Accuracy: 0.7373
+2023-06-29 02:48:09,155 INFO Epoch 2/15 - Train Loss: 0.5547 - Val Loss: 0.7237 - Val Accuracy: 0.7288
+2023-06-29 02:48:15,494 INFO Epoch 3/15 - Train Loss: 0.4495 - Val Loss: 0.6448 - Val Accuracy: 0.7429
+2023-06-29 02:48:23,395 INFO Epoch 4/15 - Train Loss: 0.4461 - Val Loss: 0.8036 - Val Accuracy: 0.7458
+2023-06-29 02:48:29,693 INFO Epoch 5/15 - Train Loss: 0.3182 - Val Loss: 0.8343 - Val Accuracy: 0.7458
+2023-06-29 02:48:35,977 INFO Epoch 6/15 - Train Loss: 0.2894 - Val Loss: 0.8336 - Val Accuracy: 0.7500
+2023-06-29 02:48:42,326 INFO Epoch 7/15 - Train Loss: 0.2771 - Val Loss: 0.7476 - Val Accuracy: 0.7567
+2023-06-29 02:48:48,639 INFO Epoch 8/15 - Train Loss: 0.2256 - Val Loss: 0.7120 - Val Accuracy: 0.7595
+2023-06-29 02:48:54,907 INFO Epoch 9/15 - Train Loss: 0.2172 - Val Loss: 0.7315 - Val Accuracy: 0.7627
+2023-06-29 02:49:01,304 INFO Epoch 10/15 - Train Loss: 0.1681 - Val Loss: 0.8405 - Val Accuracy: 0.7653
+2023-06-29 02:49:07,709 INFO Epoch 11/15 - Train Loss: 0.1423 - Val Loss: 0.9605 - Val Accuracy: 0.7658
+2023-06-29 02:49:14,107 INFO Epoch 12/15 - Train Loss: 0.1446 - Val Loss: 0.8655 - Val Accuracy: 0.7669
+2023-06-29 02:49:20,452 INFO Epoch 13/15 - Train Loss: 0.1366 - Val Loss: 0.8949 - Val Accuracy: 0.7692
+2023-06-29 02:49:26,725 INFO Epoch 14/15 - Train Loss: 0.1198 - Val Loss: 0.9388 - Val Accuracy: 0.7700
+2023-06-29 02:49:33,084 INFO Epoch 15/15 - Train Loss: 0.0865 - Val Loss: 1.0043 - Val Accuracy: 0.7706
+2023-06-29 02:49:34,648 INFO Running test set evaluation...
+2023-06-29 02:49:34,654 INFO Testing Progress: 1/6
+2023-06-29 02:49:34,677 INFO Testing Progress: 2/6
+2023-06-29 02:49:34,702 INFO Testing Progress: 3/6
+2023-06-29 02:49:34,724 INFO Testing Progress: 4/6
+2023-06-29 02:49:34,751 INFO Testing Progress: 5/6
+2023-06-29 02:49:34,781 INFO Testing Progress: 6/6
+2023-06-29 02:49:34,813 INFO               precision    recall  f1-score   support
+
+     sadness     0.8333    0.7692    0.8000        26
+         joy     0.9091    0.9091    0.9091        33
+       anger     0.8158    0.8857    0.8493        35
+        fear     0.8750    0.8400    0.8571        25
+
+    accuracy                         0.8571       119
+   macro avg     0.8583    0.8510    0.8539       119
+weighted avg     0.8579    0.8571    0.8568       119
+
